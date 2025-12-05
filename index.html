@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kapil Meena | PhD Researcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome for specific brand icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: 'hsl(var(--color-primary-50) / <alpha-value>)',
+                100: 'hsl(var(--color-primary-100) / <alpha-value>)',
+                200: 'hsl(var(--color-primary-200) / <alpha-value>)',
+                300: 'hsl(var(--color-primary-300) / <alpha-value>)',
+                400: 'hsl(var(--color-primary-400) / <alpha-value>)',
+                500: 'hsl(var(--color-primary-500) / <alpha-value>)',
+                600: 'hsl(var(--color-primary-600) / <alpha-value>)',
+                700: 'hsl(var(--color-primary-700) / <alpha-value>)',
+                800: 'hsl(var(--color-primary-800) / <alpha-value>)',
+                900: 'hsl(var(--color-primary-900) / <alpha-value>)',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root, [data-palette="blue"] {
+        --color-primary-50: 207 90% 96%;
+        --color-primary-100: 204 94% 94%;
+        --color-primary-200: 202 96% 87%;
+        --color-primary-300: 200 97% 79%;
+        --color-primary-400: 197 93% 66%;
+        --color-primary-500: 196 89% 51%;
+        --color-primary-600: 198 98% 39%;
+        --color-primary-700: 200 97% 31%;
+        --color-primary-800: 202 91% 27%;
+        --color-primary-900: 203 81% 23%;
+      }
+      
+      [data-palette="green"] {
+        --color-primary-50: 138 95% 96%;
+        --color-primary-100: 136 81% 91%;
+        --color-primary-200: 135 72% 82%;
+        --color-primary-300: 136 65% 69%;
+        --color-primary-400: 138 58% 51%;
+        --color-primary-500: 140 70% 40%;
+        --color-primary-600: 142 76% 32%;
+        --color-primary-700: 144 72% 27%;
+        --color-primary-800: 145 66% 23%;
+        --color-primary-900: 147 62% 19%;
+      }
+      
+      [data-palette="purple"] {
+        --color-primary-50: 265 89% 97%;
+        --color-primary-100: 265 92% 94%;
+        --color-primary-200: 264 91% 88%;
+        --color-primary-300: 263 90% 80%;
+        --color-primary-400: 262 88% 70%;
+        --color-primary-500: 262 83% 60%;
+        --color-primary-600: 263 76% 52%;
+        --color-primary-700: 264 70% 45%;
+        --color-primary-800: 265 66% 38%;
+        --color-primary-900: 266 68% 31%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .glass-card {
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      }
+
+      .dark .glass-card {
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid rgba(148, 163, 184, 0.1);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+      }
+      
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.2",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
